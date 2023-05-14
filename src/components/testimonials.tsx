@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import TestimonialsImage01 from "../public/images/testimonial-01.jpg";
 import TestimonialsImage02 from "../public/images/testimonial-02.jpg";

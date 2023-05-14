@@ -6,9 +6,9 @@ import { historyContent } from "../translations/history";
 import RootLayout from "./layout";
 import Image from "next/image";
 import Laptop1 from "../public/images/laptop_lifestyle.jpg";
-import Laptop2 from "../public/images/laptop_lifestyle2.jpg";
-import Laptop3 from "../public/images/laptop_lifestyle3.jpg";
-import Laptop4 from "../public/images/laptop_lifestyle4.jpg";
+import Laptop2 from "../public/images/laptop_lifestyle_2.jpg";
+import Laptop3 from "../public/images/laptop_lifestyle_3.jpg";
+import Laptop4 from "../public/images/laptop_lifestyle_4.jpg";
 
 export default function MentorshipIntro() {
   const { locale } = useRouter();

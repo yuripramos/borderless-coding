@@ -199,7 +199,7 @@ export default function Resources() {
                     width="32"
                     height="26"
                     viewBox="0 0 256 190"
-                    enable-background="new 0 0 256 190"
+                    enableBackground="new 0 0 256 190"
                   >
                     <path
                       d="M48.12,27.903C48.12,13.564,59.592,2,74.023,2c14.339,0,25.903,11.564,25.903,25.903
