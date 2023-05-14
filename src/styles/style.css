@@ -1,0 +1,56 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* Additional styles */
+@import "additional-styles/utility-patterns.css";
+@import "additional-styles/range-slider.css";
+@import "additional-styles/toggle-switch.css";
+@import "additional-styles/theme.css";
+
+@import "tailwindcss/utilities";
+
+@layer utilities {
+  .rtl {
+    direction: rtl;
+  }
+}
+
+canvas {
+  display: block;
+}
+
+#controls {
+  margin: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+}
+
+.hero-bg {
+  position: relative;
+  width: 100%;
+}
+
+.hero-bg::before {
+  content: "";
+  background-image: url("../public/images/digital-baloons.jpeg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.15;
+}
+
+.logo::after {
+  content: "";
+  background: #808080; /* Adjust this to be the color you want */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  mix-blend-mode: luminosity;
+}
