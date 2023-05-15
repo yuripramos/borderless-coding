@@ -38,7 +38,7 @@ export default function MentorshipIntro() {
                 {subtitle}
               </p>
             </div>
-            <div className="m-10 p-10 text-lg">
+            <div className="p-10 text-lg md:m-10">
               <p className="m-2 p-2">{core}</p>
               <ul className="list-inside list-disc">
                 <li className="mb-2">{values1}</li>
