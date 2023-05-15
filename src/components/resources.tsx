@@ -19,7 +19,7 @@ export default function Resources() {
   const { resources } = homeContent[homeLocale];
 
   return (
-    <section>
+    <section className="flex justify-center">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="py-12 md:py-20">
           <div className="mx-auto max-w-3xl pb-12 text-center md:pb-20">
@@ -166,7 +166,7 @@ export default function Resources() {
                 </div>
               </div>
             </div>
-            <div className="mx-auto grid max-w-sm items-start gap-12 sm:max-w-none sm:grid-cols-2 sm:gap-x-6 sm:gap-y-8 md:grid-cols-4">
+            <div className=" mx-auto grid  hidden max-w-sm items-start gap-12 sm:max-w-none sm:grid-cols-2 sm:gap-x-6 sm:gap-y-8 md:grid-cols-4">
               <a
                 className={`group relative block p-6 before:absolute before:inset-0 before:-z-10 before:bg-gray-800 before:content-[''] `}
                 href="#0"

@@ -5,9 +5,13 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import { headerContent } from "../../translations/header";
 import LogoUrl from "../../public/images/logo.svg";
+import { useWindowSize } from "../../hooks/useWindowsSize";
+import HamburgerMenu from "../hamburguerMenu";
 
 export default function Header({ nav = true }: { nav?: boolean }) {
   const { locale } = useRouter();
+  const size = useWindowSize();
+  const width = size.width;
 
   const headerLocale = locale || "en";
 
@@ -16,6 +20,22 @@ export default function Header({ nav = true }: { nav?: boolean }) {
   }
 
   const { mentorship, story, login } = headerContent[headerLocale];
+
+  const menuItems = [
+    {
+      label: mentorship,
+      href: `/${headerLocale}/mentorship`,
+    },
+    {
+      label: story,
+      href: `/${headerLocale}/history`,
+    },
+    {
+      label: login,
+      href: "#",
+    },
+  ];
+
   return (
     <header className="absolute z-30 w-full">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -30,33 +50,20 @@ export default function Header({ nav = true }: { nav?: boolean }) {
               />
             </Link>
           </div>
-          {nav && (
+          {width && width < 345 && <HamburgerMenu menuItems={menuItems} />}
+          {nav && width && width > 346 && (
             <nav className="flex grow">
               <ul className="flex grow flex-wrap items-center justify-end">
-                <li>
-                  <Link
-                    className="flex items-center px-3 py-2 font-medium text-gray-400 transition duration-150 ease-in-out hover:text-blue-500 lg:px-5"
-                    href="/mentorship"
-                  >
-                    {mentorship}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="flex items-center px-3 py-2 font-medium text-gray-400 transition duration-150 ease-in-out hover:text-blue-500 lg:px-5"
-                    href="/history"
-                  >
-                    {story}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className="btn group w-full bg-gradient-to-t from-blue-600 to-blue-400 text-white shadow-lg hover:to-blue-500"
-                    href="#"
-                  >
-                    {login}
-                  </Link>
-                </li>
+                {menuItems.map((item, index) => (
+                  <li key={index}>
+                    <Link
+                      href={item.href}
+                      className="flex items-center px-3 py-2 font-medium text-gray-400 transition duration-150 ease-in-out hover:text-blue-500 lg:px-5"
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </nav>
           )}
