@@ -44,12 +44,12 @@ export default function MentorshipIntro() {
           </div>
           <div className="grid gap-4 md:grid-cols-3">
             <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-md">
-              <div className="rounded-md border border-gray-400">
+              <div className="min-h-80 rounded-md border-2 border-gray-400">
                 <Image src={testemonial1} alt="testemonial1" />
               </div>
             </div>
             <div className="aspect-w-1 aspect-h-1 overflow-hidden rounded-md">
-              <div className="rounded-md border border-gray-400">
+              <div className="rounded-md border-2 border-gray-400">
                 <Image src={testemonial2} alt="testemonial2" />
               </div>
             </div>
