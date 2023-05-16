@@ -146,7 +146,7 @@ export const mentorshipContent: Translations = {
       value: "6.000",
       period: "/ano",
       mainDescription: "Para devs e quem não é dev (ainda)",
-      status: "Incrições 29 de Maio (via instagram)",
+      status: "Aplicação 1 de Junho (via instagram)",
       features: "Está inluso",
       features1: `8+ lives com o Founder explicando estratégias sobre como ele
                      deixou as favelas no Brasil para chegar ao Vale do Silício como
