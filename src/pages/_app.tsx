@@ -1,6 +1,7 @@
 import { type AppType } from "next/app";
 import Head from "next/head";
 import { api } from "~/utils/api";
+import { Analytics } from "@vercel/analytics/react";
 
 import "../styles/style.css";
 
@@ -14,6 +15,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
         <title>Borderless Coding</title>
       </Head>
       <Component {...pageProps} />
+      <Analytics />
     </div>
   );
 };
