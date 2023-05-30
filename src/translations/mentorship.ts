@@ -134,14 +134,14 @@ export const mentorshipContent: Translations = {
   pt: {
     title: "Se torne um mentorado",
     testemonial:
-      "Participe do nossa Mentoria, mas primeiro veja o que alguns de nossos mentorados estão dizendo",
+      "Participe da nossa Mentoria, mas primeiro veja o que alguns de nossos mentorados estão dizendo",
     findPlan: "Veja Mais",
     pricingDescription: `Você está procurando acelerar seu aprendizado e crescimento como um
                  programador? Junte-se ao nosso programa de mentoria e obtenha orientação de
                  quem já chegou aonde você quer chegar`,
     mostPopular: "Mais Popular",
     basic: {
-      text: "Básico",
+      text: "Starter",
       currency: "R$",
       value: "6.000",
       period: "/ano",
@@ -164,7 +164,7 @@ export const mentorshipContent: Translations = {
                      à sua rotina usando IA (em desenvolvimento)`,
     },
     privateMentorship: {
-      text: "Privado",
+      text: "Private",
       currency: "R$",
       value: "13.000",
       period: "/ano",
