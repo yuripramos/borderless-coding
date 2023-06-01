@@ -137,7 +137,10 @@ export default function Pricing() {
                   >
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>{basic.features6}</span>
+                  <span>
+                    <b>{basic.features6Bold}</b>&nbsp;
+                    {basic.features6}
+                  </span>
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -147,7 +150,11 @@ export default function Pricing() {
                   >
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>{basic.features7}</span>
+
+                  <span>
+                    <b>BÔNUS: </b>
+                    {basic.features7}
+                  </span>
                 </li>
               </ul>
             </div>
@@ -199,7 +206,10 @@ export default function Pricing() {
                   >
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>{privateMentorship.features2}</span>
+                  <span>
+                    <b>{privateMentorship.features2Bold}</b>
+                    {privateMentorship.features2}
+                  </span>
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -209,7 +219,12 @@ export default function Pricing() {
                   >
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>{privateMentorship.features3}</span>
+                  <span>
+                    <b>{privateMentorship.features3Start}</b>
+                    &nbsp;{privateMentorship.features3}
+                    &nbsp;<b>{privateMentorship.features3BrandName}</b>&nbsp;
+                    {privateMentorship.features3Continue}
+                  </span>
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -219,7 +234,10 @@ export default function Pricing() {
                   >
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>{privateMentorship.features4}</span>
+                  <span>
+                    <b>{privateMentorship.features4Start}</b>
+                    {privateMentorship.features4}
+                  </span>
                 </li>
               </ul>
             </div>
@@ -259,7 +277,10 @@ export default function Pricing() {
                   >
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
-                  <span>{experience.features1}</span>
+                  <span>
+                    <b>{experience.features1Bold}</b>
+                    {experience.features1}
+                  </span>
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -270,8 +291,7 @@ export default function Pricing() {
                     <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                   </svg>
                   <span>
-                    {experience.features2} <b>{experience.features2Bold}</b>,
-                    {experience.features2Ending}
+                    <b>{experience.features2Bold}</b>
                   </span>
                 </li>
                 <li className="flex items-center">
@@ -284,7 +304,6 @@ export default function Pricing() {
                   </svg>
                   <span>
                     <b>{experience.features3Bold}</b>
-                    {experience.features3}
                   </span>
                 </li>
               </ul>
