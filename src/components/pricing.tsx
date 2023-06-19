@@ -67,7 +67,7 @@ export default function Pricing() {
                   {basic.mainDescription}
                 </div>
                 <a
-                  className="btn-sm group w-full bg-gradient-to-t from-green-600 to-green-400 text-white shadow-lg hover:to-green-500"
+                  className="btn-sm group w-full bg-gradient-to-t from-red-600 to-red-400 text-white shadow-lg hover:to-red-500"
                   href="#0"
                 >
                   {basic.status}

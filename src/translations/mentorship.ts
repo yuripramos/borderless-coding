@@ -83,7 +83,7 @@ export const mentorshipContent: Translations = {
       value: "6000",
       period: "/year",
       mainDescription: "For devs and non-devs (yet)",
-      status: "Application on June 1st (via Instagram)",
+      status: "Closed",
       features: "It's included",
       features1:
         "8+ lives with the Founder explaining strategies on how he went from the favelas in Rio to Silicon Valley as a programmer.",
@@ -160,7 +160,7 @@ export const mentorshipContent: Translations = {
       value: "6.000",
       period: "/ano",
       mainDescription: "Para devs e quem não é dev (ainda)",
-      status: "Aplicação 1 de Junho (via instagram)",
+      status: "Fechado",
       features: "Está inluso",
       features1: `8+ lives com o Founder explicando estratégias sobre como ele
                      deixou as favelas no Rio para chegar ao Vale do Silício como
