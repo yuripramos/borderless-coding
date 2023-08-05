@@ -134,7 +134,7 @@ export const mentorshipContent: Translations = {
       period: "/year",
       mainDescription:
         "An immersion that will change your life once and for all",
-      status: "Closed until August/23",
+      status: "Closed",
       features: "Everything from private and more",
       features1Bold: "Level 1 hierarchy of networking with the Founder",
       features1:
@@ -202,7 +202,7 @@ export const mentorshipContent: Translations = {
       period: "/ano",
       mainDescription:
         "Uma imersão que vai mudar sua vida de uma vez por todas",
-      status: "Fechado até Agosto/23",
+      status: "Fechado",
       features: "Tudo do private e mais",
       features1Bold: `Hierarquia nível 1 de networking do Founder`,
       features1: `, recebendo trabalhos, projetos e oportunidades em preferência ante a hierarquia, com possibilidade de atuar como sócio em projetos ou candidatar-se a ofertas de trabalho de mesmo nível no mercado internacional`,
